@@ -1,6 +1,6 @@
 #Segunda Forma
 def cifrar_cesar(texto, desplazamiento)
-    alfabeto = ('a'..'z').to_a
+    alfabeto = ('a'..'z').to_a # Generar un array con todas las letras del alfabeto en minúsculas. TEMA: RANGO en ARRAYS
     texto_cifrado = texto.chars.map do |caracter|
       if alfabeto.include?(caracter.downcase)
         indice_actual = alfabeto.find_index(caracter.downcase)
