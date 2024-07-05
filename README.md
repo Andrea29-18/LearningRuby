@@ -284,3 +284,18 @@ my_hash = {
 ```
 [Leccion de Hashes](https://docs.ruby-lang.org/en/3.3/Hash.html)
 
+# POO
+## Gestión de Proyectos
+Organizar sus proyectos en diferentes archivos tiene muchos beneficios prácticos. El principal de ellos es hacer que su código sea más modular, lo que facilita el ajuste y la comprensión del código a medida que se vuelve más complejo.
+
+Para los proyectos de Ruby, `la regla de los pulgares es`:
+- Una clase por archivo. Cada vez que cree una nueva clase, debe crear un nuevo archivo para que viva.
+- Es una convención poner todos sus archivos Ruby en un directorio lib. Por ejemplo:
+
+```
+project_name
+├── lib
+│   └── lovely_file_of_yours.rb
+└── main.rb
+```
+
