@@ -299,4 +299,27 @@ project_name
 └── main.rb
 ```
 
-# Archivos y Serialización
+# Commits Convencionales
+Para hacer un commit usando los **Commits Convencionales** (`Conventional Commits`), debes seguir una convención que ayuda a crear mensajes estructurados y claros en tus commits. Esta convención te permite definir el tipo de cambio que estás haciendo, lo cual es muy útil cuando otros miembros de un equipo leen el historial de commits o cuando se generan automáticamente versiones de un proyecto.
+
+### Estructura de un Commit Convencional
+
+Un mensaje de commit convencional tiene la siguiente estructura:
+
+```
+<type>(<scope>): <description>
+```
+
+- **type**: El tipo de cambio que estás haciendo.
+- **scope**: La parte del proyecto que se ve afectada por el cambio (opcional, pero recomendable).
+- **description**: Una descripción corta y precisa del cambio.
+
+### Tipos comunes de commits:
+1. **feat**: Para la adición de una nueva funcionalidad.
+2. **fix**: Para arreglar un error.
+3. **refactor**: Para cambios en el código que no agregan funcionalidades ni corrigen errores (refactorización).
+4. **test**: Para agregar o modificar pruebas.
+5. **docs**: Para cambios relacionados con la documentación.
+6. **style**: Para cambios que no afectan el código (espacios, formato, etc.).
+7. **chore**: Para tareas menores, como actualizaciones de dependencias o configuraciones.
+8. **perf**: Para mejoras en el rendimiento.
