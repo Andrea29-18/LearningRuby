@@ -323,3 +323,15 @@ Un mensaje de commit convencional tiene la siguiente estructura:
 6. **style**: Para cambios que no afectan el código (espacios, formato, etc.).
 7. **chore**: Para tareas menores, como actualizaciones de dependencias o configuraciones.
 8. **perf**: Para mejoras en el rendimiento.
+
+# Time Complexity
+
+Las notaciones asintóticas se utilizan para describir el tiempo de ejecución de un algoritmo. Debido a que el tiempo de ejecución de un algoritmo puede variar según la entrada, existen varias notaciones que miden ese tiempo de ejecución de diferentes maneras. Las tres más comunes son las siguientes:
+
+- Notación O grande: representa el límite superior de un algoritmo. Esto significa el peor escenario posible en cuanto al rendimiento del algoritmo.
+
+- Notación Omega: representa el límite inferior de un algoritmo. Este es el mejor escenario posible.
+
+- Notación Theta: representa tanto el límite superior como el límite inferior y, por lo tanto, analiza la complejidad del caso promedio de un algoritmo.
+
+[Más información](https://www.theodinproject.com/lessons/ruby-time-complexity#o1-constant-complexity)
